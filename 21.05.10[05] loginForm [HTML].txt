@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>loginForm</title>
+<style>
+	table{
+		position:absolute; left:50%; top:50%;
+		transform:translate(-50%, -50%);
+		border-spacing:20px;
+	}
+</style>
+</head>
+<body>
+<table>
+	<tr>
+		<td id='id'>아이디</td>
+		<td><input type=text name=id></td>
+		</tr><tr>	<td>패스워드</td>
+		<td><input type="password" name="password"></td>
+		</tr>
+		<tr>
+		<td colspan="2" align="center">
+			<a href="custmartproject.html"><button>로그인</button></a>
+		</td>
+		</tr>
+</table>
+</body>
+</html>
